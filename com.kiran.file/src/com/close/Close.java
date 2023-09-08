@@ -9,7 +9,7 @@ public class Close {
 	@Test
 	public void test01() throws Exception {
 		
-	  
+//    System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\Downloads\\chromedriver_win32 (1)");	        
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\Downloads\\chromedriver_win32 (1)");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://demo.automationtesting.in/Windows.html");
