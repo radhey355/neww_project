@@ -13,7 +13,7 @@ public class Close {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\Downloads\\chromedriver_win32 (1)");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://demo.automationtesting.in/Windows.html");
-		
+		System.out.println("main");
 //		driver.findElement(By.xpath("//*[@target='_blank']//following-sibling::button")).click();
 //		Thread.sleep(3000);
 //		
